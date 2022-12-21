@@ -7,3 +7,4 @@ services:
       - local.env
     volumes:
       - ./data:/app/data
+      - ./src:/app/src

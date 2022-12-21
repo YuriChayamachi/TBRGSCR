@@ -12,4 +12,4 @@ RUN pip install -U pip \
 
 COPY src /app
 
-CMD [ "python", "main.py" ]
+CMD [ "python", "src/main.py" ]
